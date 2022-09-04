@@ -1,0 +1,6 @@
+body > div > div > div:nth-child(1) > img{
+    width: 230px;
+}
+img, svg{
+    height: 138px;
+}

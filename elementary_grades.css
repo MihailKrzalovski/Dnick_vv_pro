@@ -1,0 +1,27 @@
+body > a:nth-child(3) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(4) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(5) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(6) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(7) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(8) > button{
+    height: 90px;
+    width: 215px;
+}
+body > a:nth-child(15) > button{
+    margin-left: 654px;
+}

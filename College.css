@@ -1,0 +1,10 @@
+img, svg{
+    height: 141px;
+}
+body > div > div:nth-child(3) > div:nth-child(1) > img{
+    width: 200px;
+}
+body > div > div:nth-child(5) > div:nth-child(1) > img{
+    width: 206px;
+    height: 146px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Limits</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+<a href="CalculusTopics.html">
+    <button class="btn-primary">Back</button>
+</a>
+<h1>Introduction to Limits</h1>
+<img src="infinity.svg" alt="infinity">
+<p>Infinity is a very special idea.
+    We know we can't reach it, but we can still try to work out the value of
+    functions that have infinity in them.</p>
+<h3>Let's start with an interesting example.</h3>
+<td class="larger">Question: What is the value of <span class="intbl"><em>1</em>/<strong><span class="times">∞</span></strong>
+						</span> ?</td>
+<br>
+<td class="large">Answer: We don't know!</td>
+<h3>Why Don't We Know?</h3>
+<p>The simplest reason is that Infinity is not a number, it is an idea.</p>
+<p>So <span class="intbl"><em>1</em>/<strong><span class="times">∞</span></strong>
+			</span> is a bit like saying <span class="intbl">
+						<em>1</em>/
+						<strong>beauty</strong>
+						</span> or <span class="intbl">
+						<em>1</em>/
+						<strong>tall</strong>
+						</span>.</p>
+<p>Maybe we could say that <span class="intbl"><em>1</em>/<strong><span class="times">∞</span></strong>
+			</span>= 0, ... but that is a problem too, because if we divide 1 into infinite pieces and they end up 0 each, what happened to the 1?</p>
+<p class="center">In fact <span class="intbl"><em>1</em><strong>/<span class="times">∞</span></strong>
+			</span> is known to be <b>undefined</b>.</p>
+<h3>But We Can Approach It!</h3>
+<p>So instead of trying to work it out for infinity (because we can't get a sensible answer), let's try larger and larger values of x:</p>
+<p style="float:right; margin: 0 0 5px 10px;"><img src="function-reciprocal-pos.svg" alt="graph 1/x"></p>
+<table style="border: 0; margin:auto;">
+    <tbody>
+    <tr style="text-align:right;">
+        <td style="width:150px;"><b>x</b></td>
+        <td style="width:150px;"><b><span class="intbl">
+					<em>1</em>
+					<strong>x</strong>
+				</span></b></td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">1</td>
+        <td style="width:150px;">1.00000</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">2</td>
+        <td style="width:150px;">0.50000</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">4</td>
+        <td style="width:150px;">0.25000</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">10</td>
+        <td style="width:150px;">0.10000</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">100</td>
+        <td style="width:150px;">0.01000</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">1,000</td>
+        <td style="width:150px;">0.00100</td>
+    </tr>
+    <tr style="text-align:right;">
+        <td style="width:150px;">10,000</td>
+        <td style="width:150px;">0.00010</td>
+    </tr>
+    </tbody></table>
+<p>Now we can see that as x gets larger, <b><span class="intbl">
+							<em>1</em>/
+							<strong>x</strong>
+						</span></b> tends towards 0</p>
+<p>We are now faced with an interesting situation:</p>
+<ul>
+    <li>We can't say what happens when x gets to infinity</li>
+    <li>But we can see that <b><span class="intbl">
+								<em>1</em>/
+								<strong>x</strong>
+							</span></b> is <b>going towards 0</b></li>
+</ul>
+<p>We want to give the answer "0" but can't, so instead mathematicians say exactly what is going on by using the special word "limit".</p>
+<p class="center larger">The <b>limit</b> of <b><span class="intbl">
+							<em>1</em>/
+							<strong>x</strong>
+						</span></b> as x approaches Infinity is<b> 0</b></p>
+<p>And write it like this:</p>
+<p class="center large"><span class="lim"><em>lim</em><strong>(x→∞)</strong></span><span class="intbl"><em>1</em>/<strong>x</strong></span> = 0</p>
+<p>In other words:</p>
+<p class="center large">As x approaches infinity, then <b><span class="intbl">
+							<em>1</em>/
+							<strong>x</strong>
+						</span></b> approaches 0</p>
+
+</body>
+</html>
